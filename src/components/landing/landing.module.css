@@ -1,0 +1,82 @@
+.background {
+    position: absolute;
+    width: 100%;
+    height: 1280px;
+    left: 0px;
+    top: -320px;
+}
+
+.topic {
+    position: absolute;
+    width: 688px;
+    height: 129px;
+    left: 146px;
+    top: 230px;
+
+    background: rgba(217, 217, 217, 0.67);
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 30px;
+
+    font-size: 54px;
+}
+
+.text {
+    position: absolute;
+    width: 886px;
+    height: 227px;
+    left: 146px;
+    top: 388px;
+
+    background: rgba(217, 217, 217, 0.67);
+    border-radius: 30px;
+
+    font-size: 22px;
+}
+
+.button1 {
+    position: absolute;
+    width: 425px;
+    height: 100px;
+    left: 146px;
+    top: 644px;
+
+    background: rgba(176, 198, 43, 0.86);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+
+    font-weight: 500;
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.button2 {
+    position: absolute;
+    width: 425px;
+    height: 100px;
+    left: 607px;
+    top: 644px;
+
+    background: rgba(198, 191, 43, 0.86);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.button1:hover {
+    background: rgba(166, 183, 67, 0.86);
+}
+.button2:hover {
+    background: rgba(197, 192, 101, 0.86);  
+}
